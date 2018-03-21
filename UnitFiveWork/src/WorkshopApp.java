@@ -2,7 +2,7 @@ import java.sql.Date;
 
 public class WorkshopApp {
 	
-	private Product data = new Product();
+	private Product product1 = new Product();
 	//Client info
 	private int codCli;
 	private String cliDNI;
