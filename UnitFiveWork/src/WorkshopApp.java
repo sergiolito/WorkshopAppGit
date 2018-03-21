@@ -1,7 +1,8 @@
-import java.sql.Date;
+import java.util.Date;
 
 public class WorkshopApp {
 	
+
 	private Product product1 = new Product();
 	//Client info
 	private int codCli;
@@ -18,6 +19,11 @@ public class WorkshopApp {
 	private int discount;
 	
 	
+
+	private Product data = new Product();
+	private Client Client1 = new Client();
+	private Invoice invoice1 = new Invoice();
+
 	//Invoice line info
 	private int numInvoiceLine;
 	private int numArticles;
